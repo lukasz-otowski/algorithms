@@ -6,13 +6,12 @@ function merge_sort($my_array){
     $right = array_slice($my_array, $mid);
 	$left = merge_sort($left);
 	$right = merge_sort($right);
-    //var_dump($left, $right);
     foreach ($left as $key => $val) {
-       echo $val;
+       echo $val, " ";
     }
     echo " - ";
     foreach ($right as $key => $val) {
-       echo $val;
+       echo $val, " ";
     }
     echo "<br>";
 	return merge($left, $right);
