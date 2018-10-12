@@ -1,0 +1,22 @@
+dl{
+    font-family: arial;
+    line-height: 25px;
+    margin: 20px;
+}
+dt{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+    width: 30px;
+}
+dd{
+    display: inline-block;
+}
+
+ul{
+    margin: 20px;
+}
+sub{
+    vertical-align:sub;
+    font-size: 10px;
+}
