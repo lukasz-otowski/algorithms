@@ -1,18 +1,30 @@
-dl{
+.symbols, .terms{
     font-family: arial;
     line-height: 25px;
-    margin: 20px;
+    margin: 20px 0 0 40px;
 }
-dt{
+.symbols dt{
     display: inline-block;
     vertical-align: top;
     font-weight: bold;
     width: 30px;
 }
-dd{
+.symbols dd{
     display: inline-block;
 }
-
+.terms dt{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: bold;
+}
+.terms dd{
+    margin-left: 10px;
+}
+header {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px;
+}
 ul{
     margin: 20px;
 }
